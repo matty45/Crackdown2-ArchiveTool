@@ -58,7 +58,6 @@ def read_toc_file(file_path: str) -> TOCData:
         wwise_entries = read_wwise_entries(f, header)
         path_string_data = read_path_string_data(f, header)
 
-        f.close()
 
     return {
         "header": header,
