@@ -8,7 +8,7 @@ from tests.toc_load_test import load_toc_test
 
 start_time = time.time()
 
-test_file_path = "C:\\Games\\C2Recomp\\assets\\UI\\ui.pack"
+test_file_path = "C:\\Games\\C2Recomp\\assets\\Wwise\\streaming.pack"
 
 print("\nTriggering load test.")
 if load_toc_test(test_file_path):
